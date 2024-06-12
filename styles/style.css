@@ -1,3 +1,6 @@
+
+@media (max-width: 819px) {
+
 header {
    width:100%;
    height: 300px;
@@ -246,7 +249,7 @@ border: 2px solid black;
 
 .section4 {
     width: 100%;
-    height: 820px;
+    height: 900px;
     padding-top: 1px;
     background-color: blanchedalmond;
 }
@@ -270,8 +273,10 @@ border: 2px solid black;
 
 .experiences{
     display: flex;
-   justify-content: center;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+
+
 }
 .experiences h3 {
     text-align: center;
@@ -352,7 +357,433 @@ border: 2px solid black;
     background-color: #c15a12;
     border-radius: 20px;
 }
+}
 
+
+@media screen and (min-width: 820px) and (max-width:940px) {
+    header {
+        width:100%;
+        height: 400px;
+        background-color: chocolate;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+     }
+     
+     
+     .image-me{
+
+         padding-right: 20px;
+         padding-top: 20px;
+         width: 160px;
+         height:200px;
+     }
+     
+     .image-me img{
+         width: 100%;
+         height: 100%;
+     }
+     
+     .image-me h1 {
+     text-align: center;
+     font-size: 18px;
+     
+     
+     }
+     .description {
+         padding-top: 60px;
+         font-size: 17px;
+         text-align: center;
+         padding-right: 3px;
+     
+     }
+     .description h2 {
+         font-size: 14px;
+         font-weight: bold;
+         color: rgb(240, 144, 76);
+     }
+     .description h3 {
+         font-size: 12px;
+         font-weight: bold;
+     
+     }
+     .section2 {
+         width: 100%;
+         height: 500px;
+         padding-top: 1px;
+         background-color: blanchedalmond;
+     }
+     .icon {
+         margin-top: 20px;
+         margin-left: 80px;
+         width: 8%;
+         height: 6%;
+         border-radius: 40%;
+         position: absolute;
+     }
+     .icon2 {
+         margin-top: 20px;
+         margin-left: 20px;
+         width: 8%;
+         height: 6%;
+         border-radius: 40%;
+         position: absolute;
+         left: 77%;
+     }
+     .section2 h2 {
+         text-align: center;
+         font-size: 30px;
+         font-weight: bold;
+         color: rgb(0, 0, 0);
+         padding-bottom: 0;
+         margin-top:20px ;
+         margin-bottom: 0%;
+     }
+     
+     .section2 hr {
+         width: 40%;
+         height: 2px;
+         background-color: chocolate;
+         border-radius: 50px;
+     }
+     
+     .projects{
+         display: flex;
+        justify-content: center;
+         flex-wrap: wrap;
+         margin-top: 80px;
+     }
+     
+     
+     
+     .project1 {
+         width: 280px;
+         height: 140px;
+         display: flexbox;
+      flex-direction: row;
+     margin-bottom: 20px;
+     margin-right: 60px;
+     background-color: chocolate;
+     
+     border-color: black;
+     border: 2px solid black;
+     
+     }
+     .project1 img{
+         width: 50%;
+         height: 100%;
+         float: left;
+     
+     }
+     .projects h3 {
+         text-align: center;
+         padding-right: 10px;
+         font-size: 20px;
+         font-weight: bold;
+         color: rgb(0, 0, 0);
+         margin-bottom: 0%;
+         margin-top: 10px;
+     }
+     
+     .projects h4 {
+         text-align: center;
+         padding-right: 10px;
+         font-size: 14px;
+         font-weight: bold;
+         color: rgb(0, 0, 0);
+         margin-top: 10px;
+     }
+     .project2 {
+         width: 280px;
+         height: 140px;
+         display: flexbox;
+      flex-direction: row;
+     margin-bottom: 20px;
+     background-color: chocolate;
+     
+     border-color: black;
+     border: 2px solid black;
+     
+     }
+     .project2 img{
+         width: 50%;
+         height: 100%;
+         float: left;
+     
+     }
+     .project3 {
+         width: 280px;
+         height: 140px;
+         display: flexbox;
+      flex-direction: row;
+     margin-bottom: 20px;
+     background-color: chocolate;
+     
+     border-color: black;
+     border: 2px solid black;
+     
+     }
+     .project3 img{
+         width: 50%;
+         height: 100%;
+         float: left;
+     
+     }
+     .section3 {
+         width: 100%;
+         height: 470px;
+         padding-top: 1px;
+         background-color: blanchedalmond;
+     }
+     
+     .section3 h2 {
+         text-align: center;
+         font-size: 30px;
+         font-weight: bold;
+         color: rgb(0, 0, 0);
+         padding-bottom: 0;
+         margin-top:20px ;
+         margin-bottom: 0%;
+     }
+     
+     .section3 hr {
+         width: 40%;
+         height: 2px;
+         background-color: chocolate;
+         border-radius: 50px;
+     }
+     
+     .references{
+         display: flex;
+        justify-content: center;
+         flex-wrap: wrap;
+         margin-top: 40px;
+     }
+     
+     
+     
+     .reference1 {
+         width: 80%;
+         height: 70px;
+         display: flexbox;
+      flex-direction: row;
+     margin-bottom: 20px;
+     background-color: chocolate;
+     
+     border-color: black;
+     border: 2px solid black;
+     
+     }
+     
+     .references h4 {
+         text-align: center;
+         padding-right: 10px;
+         font-size: 14px;
+         font-weight: bold;
+         color: rgb(0, 0, 0);
+         margin-top: 10px;
+     }
+     .reference2 {
+         width: 80%;
+         height: 70px;
+         display: flexbox;
+      flex-direction: row;
+     margin-bottom: 20px;
+     background-color: chocolate;
+     margin-top: 30px;
+     border-color: black;
+     border: 2px solid black;
+     
+     }
+     
+     .reference3 {
+         width: 80%;
+         height: 70px;
+         display: flexbox;
+      flex-direction: row;
+     margin-bottom: 20px;
+     background-color: chocolate;
+     margin-top: 30px;
+     border-color: black;
+     border: 2px solid black;
+     
+     }
+     
+     .section4 {
+         width: 100%;
+         height: 600px;
+         padding-top: 1px;
+         background-color: blanchedalmond;
+     }
+     
+     .section4 h2 {
+         text-align: center;
+         font-size: 30px;
+         font-weight: bold;
+         color: rgb(0, 0, 0);
+         padding-bottom: 0;
+         margin-top:20px ;
+         margin-bottom: 0%;
+     }
+     
+     .section4 hr {
+         width: 40%;
+         height: 2px;
+         background-color: chocolate;
+         border-radius: 50px;
+     }
+     
+     .experiences{
+         display: flex;
+         justify-content: center;
+        align-items: center;
+         flex-wrap: wrap;
+         padding-top: 50px;
+     }
+     
+     .experience1 {
+        margin-right: 30px;
+        margin-left: 220px;
+     }
+
+     .experience2 {
+        margin-right: 35%;
+     }
+     .experience3 {
+        margin-right: 30px;
+        margin-left: 20px;
+     }
+
+
+     .experience1 h3 {
+         text-align: center;
+         font-size: 24px;
+         font-weight: bold;
+         color: rgb(0, 0, 0);
+         padding-bottom: 0;
+         margin-top:30px ;
+         margin-bottom: 20px;
+     }
+     .experience1 img {
+         width: 80px;
+         height: 80px;
+        align-self: center;
+        margin-left: 30px;
+        border-radius: 50%;
+     }
+     
+     
+     .experience1 .progress {
+         width: 120px;
+         height: 20px;
+         background-color: #ffb26f;
+         border-radius: 20px;
+         margin-bottom: 20px;
+         margin-left: 10px;
+     }
+     
+     .experience1 .progress-bar {
+         width: 80%;
+         height: 100%;
+         background-color: #c15a12;
+         border-radius: 20px;
+     }
+     
+     .experience2 h3 {
+        text-align: center;
+        font-size: 24px;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+        padding-bottom: 0;
+        margin-top:30px ;
+        margin-bottom: 20px;
+    }
+    .experience2 img {
+        width: 80px;
+        height: 80px;
+       align-self: center;
+       margin-left: 30px;
+       border-radius: 50%;
+    }
+      .experience2 .progress2 {
+         width: 120px;
+         height: 20px;
+         background-color: #ffb26f;
+         border-radius: 20px;
+         margin-bottom: 20px;
+         margin-left: 10px;
+     }
+     
+     .experience2 .progress-bar2 {
+         width: 90%;
+         height: 100%;
+         background-color: #c15a12;
+         border-radius: 20px;
+     }
+     .experience3 h3 {
+        text-align: center;
+        font-size: 24px;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+        padding-bottom: 0;
+        margin-top:30px ;
+        margin-bottom: 20px;
+    }
+    .experience3 img {
+        width: 80px;
+        height: 80px;
+       align-self: center;
+       margin-left: 30px;
+       border-radius: 50%;
+    }
+     .experience3 .progress3 {
+         width: 120px;
+         height: 20px;
+         background-color: #ffb26f;
+         border-radius: 20px;
+         margin-bottom: 20px;
+         margin-left: 10px;
+     }
+     
+     .experience3 .progress-bar3 {
+         width: 60%;
+         height: 100%;
+         background-color: #c15a12;
+         border-radius: 20px;
+     }
+     .experience4 h3 {
+        text-align: center;
+        font-size: 24px;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+        padding-bottom: 0;
+        margin-top:30px ;
+        margin-bottom: 20px;
+    }
+    .experience4 img {
+        width: 80px;
+        height: 80px;
+       align-self: center;
+       margin-left: 30px;
+       border-radius: 50%;
+    }
+     .experience4  .progress4 {
+         width: 120px;
+         height: 20px;
+         background-color: #ffb26f;
+         border-radius: 20px;
+         margin-bottom: 20px;
+         margin-left: 10px;
+     }
+     
+     .experience4  .progress-bar4 {
+         width: 30%;
+         height: 100%;
+         background-color: #c15a12;
+         border-radius: 20px;
+     }
+}
 
 
 
