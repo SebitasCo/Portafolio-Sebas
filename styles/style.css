@@ -795,6 +795,7 @@ border: 2px solid black;
         display: flex;
         flex-direction: row;
         margin-top: 0;
+        overflow-x: hidden;
     }
     .header-fixed {
         position: fixed;
@@ -806,7 +807,7 @@ border: 2px solid black;
     header {
         position: static;
         display: block;
-        width: 20%;
+        width: 25%;
         height: 100%;
         background-color: chocolate;
         display: flex;
@@ -873,26 +874,28 @@ border: 2px solid black;
        }
     
      .section2 {
+        width: 130%;
          height: 500px;
+         margin-left: 4%;
          padding-top: 1px;
-         background-color: blanchedalmond;
+         background-color: rgb(255, 255, 255);
      }
      .icon {
          margin-top: 20px;
          margin-left: 80px;
-         width: 8%;
+         width: 6%;
          height: 6%;
          border-radius: 40%;
          position: absolute;
      }
      .icon2 {
          margin-top: 20px;
-         margin-left: 20px;
-         width: 8%;
+         margin-left: 60rem;
+         width: 6%;
          height: 6%;
          border-radius: 40%;
          position: absolute;
-         left: 77%;
+
      }
      .section2 h2 {
          text-align: center;
@@ -912,10 +915,13 @@ border: 2px solid black;
      }
      
      .projects{
+        width: 90%;
          display: flex;
         justify-content: center;
          flex-wrap: wrap;
          margin-top: 80px;
+         
+         margin-right: 0;
      }
      
      
@@ -928,7 +934,7 @@ border: 2px solid black;
      margin-bottom: 20px;
      margin-right: 60px;
      background-color: chocolate;
-     
+     margin-left: 10%;
      border-color: black;
      border: 2px solid black;
      
@@ -964,7 +970,7 @@ border: 2px solid black;
       flex-direction: row;
      margin-bottom: 20px;
      background-color: chocolate;
-     
+     margin-left: 10%;
      border-color: black;
      border: 2px solid black;
      
@@ -982,7 +988,7 @@ border: 2px solid black;
       flex-direction: row;
      margin-bottom: 20px;
      background-color: chocolate;
-     
+     margin-left: 10%;
      border-color: black;
      border: 2px solid black;
      
@@ -994,10 +1000,11 @@ border: 2px solid black;
      
      }
      .section3 {
-         width: 137%;
+         width: 130%;
          height: 470px;
+         margin-left: 4%;
          padding-top: 1px;
-         background-color: blanchedalmond;
+         background-color: rgb(255, 255, 255);
      }
      
      .section3 h2 {
@@ -1074,10 +1081,11 @@ border: 2px solid black;
      }
      
      .section4 {
-        width: 137%;
+        width: 130%;
          height: 600px;
+         margin-left: 5%;
          padding-top: 1px;
-         background-color: blanchedalmond;
+         background-color: rgb(255, 255, 255);
      }
      
      .section4 h2 {
@@ -1101,22 +1109,20 @@ border: 2px solid black;
          display: flex;
          justify-content: center;
         align-items: center;
-         flex-wrap: wrap;
+      flex-direction: initial;
          padding-top: 50px;
      }
      
-     .experience1 {
-        margin-right: 30px;
-        margin-left: 220px;
-     }
-
-     .experience2 {
-        margin-right: 35%;
-     }
-     .experience3 {
-        margin-right: 30px;
-        margin-left: 20px;
-     }
+       .htmlandcss {
+         width: 300px;
+         height: 300px;
+         display: flexbox;
+       }
+       .jsandphp {
+        width: 300px;
+        height: 300px;
+        display: flexbox;
+      }
 
 
      .experience1 h3 {
@@ -1131,8 +1137,7 @@ border: 2px solid black;
      .experience1 img {
          width: 80px;
          height: 80px;
-        align-self: center;
-        margin-left: 30px;
+        margin-left: 36%;
         border-radius: 50%;
      }
      
@@ -1143,7 +1148,7 @@ border: 2px solid black;
          background-color: #ffb26f;
          border-radius: 20px;
          margin-bottom: 20px;
-         margin-left: 10px;
+         margin-left: 29%;
      }
      
      .experience1 .progress-bar {
@@ -1166,7 +1171,7 @@ border: 2px solid black;
         width: 80px;
         height: 80px;
        align-self: center;
-       margin-left: 30px;
+       margin-left: 36%;
        border-radius: 50%;
     }
       .experience2 .progress2 {
@@ -1175,7 +1180,7 @@ border: 2px solid black;
          background-color: #ffb26f;
          border-radius: 20px;
          margin-bottom: 20px;
-         margin-left: 10px;
+         margin-left: 29%;
      }
      
      .experience2 .progress-bar2 {
@@ -1197,7 +1202,7 @@ border: 2px solid black;
         width: 80px;
         height: 80px;
        align-self: center;
-       margin-left: 30px;
+       margin-left: 36%;
        border-radius: 50%;
     }
      .experience3 .progress3 {
@@ -1206,7 +1211,7 @@ border: 2px solid black;
          background-color: #ffb26f;
          border-radius: 20px;
          margin-bottom: 20px;
-         margin-left: 10px;
+         margin-left: 29%;
      }
      
      .experience3 .progress-bar3 {
@@ -1228,7 +1233,7 @@ border: 2px solid black;
         width: 80px;
         height: 80px;
        align-self: center;
-       margin-left: 30px;
+       margin-left: 36%;
        border-radius: 50%;
     }
      .experience4  .progress4 {
@@ -1237,7 +1242,7 @@ border: 2px solid black;
          background-color: #ffb26f;
          border-radius: 20px;
          margin-bottom: 20px;
-         margin-left: 10px;
+         margin-left: 29%;
      }
      
      .experience4  .progress-bar4 {
